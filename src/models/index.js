@@ -15,13 +15,15 @@ if (!config.dialectModule) {
   config.dialectModule = pg;
 }
 
+let sequelize;
 if (config.use_env_variable) {
-  const databaseUrl = process.env[config.use_env_variable] || config.use_env_variable;
+  const databaseUrl = process.env[config.use_env_variable] || process.env.DATABASE_URL;
   console.log("Database URL:", databaseUrl); // Adicione esta linha para depurar
   sequelize = new Sequelize(databaseUrl, config);
 } else {
   sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
+
 
 
 fs
