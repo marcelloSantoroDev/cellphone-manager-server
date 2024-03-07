@@ -1,6 +1,8 @@
 const app = require('./app');
+require('dotenv')
 
-const PORT = 3001;
+
+const PORT = process.env.PORT;
 
 const server = app.listen(PORT, async () => {
     console.log(`rodando na porta ${PORT}`);
