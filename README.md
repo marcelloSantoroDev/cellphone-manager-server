@@ -16,7 +16,7 @@ O usuário também pode realizar o log out, tendo seu token destruído.
 
 ## Deploy
 
-Você encontrar a aplicação full stack deste repositório no link abaixo:
+Você pode encontrar a aplicação full stack deste repositório no link abaixo:
 
 
 [Cellphone Manager](https://cellphone-manager-client.vercel.app/)
