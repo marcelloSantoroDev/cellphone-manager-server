@@ -18,4 +18,4 @@ O usuário também pode realizar o log out, tendo seu token destruído.
 
 Você encontrar a aplicação full stack deste repositório no link abaixo:
 
-(https://cellphone-manager-client.vercel.app/)[cellphone-manager]
+https://cellphone-manager-client.vercel.app/
