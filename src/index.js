@@ -8,4 +8,4 @@ require('dotenv').config();
 //     console.log(`rodando na porta ${PORT}`);
 // });
 
-module.exports = server;
+module.exports = app;
