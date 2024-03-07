@@ -19,5 +19,26 @@ O usuário também pode realizar o log out, tendo seu token destruído.
 Você encontrar a aplicação full stack deste repositório no link abaixo:
 
 
-[Cellphone Manager](https://cellphone-manager-client.vercel.app/){:target="_blank"}
+[Cellphone Manager](https://cellphone-manager-client.vercel.app/)
 
+--------------------------------------------------------------------------------
+
+## Cellphone Manager - Server Side
+This is an application for the server side of a system that manages cellphone data. The application is built using `Node.js`, `Express.js`, and `Sequelize`.
+
+The application consists of three tables:
+
+- `users`
+- `products`
+- `details` -- A table related to products, enabling the creation of a complex API structure capable of adding different colors and prices for the same product.
+  
+For the `users` table, it is possible to create a new user with `name`, `email`, and `password`. The password is encrypted using the `bcrypt` library. When the user signs up, a `token` is generated using `jsonwebtoken`. Without this token, it is not possible to navigate to the following routes on the front-end. In this table, it is also possible to log in, and the user receives a token after their email and password have been validated.
+
+For the `products` and `details` tables, CRUD operations are possible, and it is also possible to view all products together in a single query.
+
+The user can also log out, destroying their token.
+
+## Deploy
+You can find the full-stack application of this repository at the link below:
+
+[Cellphone Manager](https://cellphone-manager-client.vercel.app/)
