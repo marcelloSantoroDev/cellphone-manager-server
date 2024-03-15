@@ -14,13 +14,6 @@ Para a tabela `products` e `details`, é possível fazer um CRUD, sendo possíve
 
 O usuário também pode realizar o log out, tendo seu token destruído.
 
-## Deploy
-
-Você pode encontrar a aplicação full stack deste repositório no link abaixo:
-
-
-[Cellphone Manager](https://cellphone-manager-client.vercel.app/)
-
 --------------------------------------------------------------------------------
 
 ## Cellphone Manager - Server Side
@@ -37,8 +30,3 @@ For the `users` table, it is possible to create a new user with `name`, `email`,
 For the `products` and `details` tables, CRUD operations are possible, and it is also possible to view all products together in a single query.
 
 The user can also log out, destroying their token.
-
-## Deploy
-You can find the full-stack application of this repository at the link below:
-
-[Cellphone Manager](https://cellphone-manager-client.vercel.app/)
